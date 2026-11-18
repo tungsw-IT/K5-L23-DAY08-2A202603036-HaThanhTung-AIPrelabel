@@ -1,2 +1,3 @@
 step,images,minutes,note
 gold_manual,4,18,Gán nhãn thủ công trong CVAT
+batch_review,24,72,Ước tính từ 3 phút mỗi ảnh đã ghi trong REPORT.md
