@@ -1,1 +1,4 @@
 case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+CAL-01,img_004,loi_may,"YOLO26 gọi tuk-tuk xanh có mui là car","Đổi thành three_wheeler khi nhận ra đó là tuk-tuk","Khi duyệt box car của xe có mui, kiểm tra dạng thân xe và số bánh nhìn thấy. Nếu vẫn chưa chắc lớp thì tick can_review.",v1.1
+CAL-02,img_024,cau_hoi_mo,"Câu 6: box người và xe chồng nhau trong ảnh đêm","Giữ box person cho người và motorbike cho xe khi cả hai đều nhận diện được","Đối chiếu từng box với vật thật. Giữ box của các vật riêng biệt dù chúng chồng nhau. Chỉ xóa box dư khi hai box cùng chỉ một vật.",v1.1
+CAL-03,img_013,cau_hoi_mo,"Câu 4: khó ước lượng phần người lái nhìn thấy qua khoang tuk-tuk","Giữ tiêu chí 20% của v1.0 và tick can_review khi ở sát ngưỡng","Ước lượng từ phần đầu, thân và chi nhìn thấy. Khi tạo mask xe, tách phần người lái nhìn thấy khỏi mask thân xe.",v1.1
