@@ -84,7 +84,7 @@ Nếu Rework / Hold, việc cần làm tiếp: Rà lại độ ôm sát của bo
 
 ## 8. Ghi chú cá nhân
 
-- **Dùng AI để làm bài.** Dùng Codex để đối chiếu ảnh kết quả, hỗ trợ rà mẫu QC, chạy script thống kê và soạn báo cáo dựa trên file trong repo.
+- **Dùng AI để làm bài.** Chatpt.
 - Bộ gold được gán thủ công và kiểm tra trước khi chạy các lượt pre-label trong lab.
 - Windows, RTX 3060 Laptop 6 GB, PyTorch bản CPU và CVAT Docker v2.81.0.
 - Dự đoán chính được chạy trong repo; lấy kết quả từ các lượt ghi trong work/runs.csv.
